@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <table border="1">
+            <tr>
+                <th>NOMBRE <br><input type="text"></th>
+                <th>APELLIDO<br><input type="text"></th>
+            </tr>
+            <tr>
+                <td>Fecha nacimiento <br><input type="date"></td>
+                <td>Lugar nacimiento <br><select name="opcio" id="opcion">
+                    <option value="op1">bogota</option>
+                    <option value="op2">medellin</option>
+                    <option value="op3">barranquilla</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2">Direccion de residencia <br><input type="text" size="50"></td>
+            </tr>
+            <tr>
+                <td>Telefono <br><input type="tel"></td>
+                <td>Email <br> <input type="email"></td> 
+            </tr>
+            <tr>
+                <td  colspan="2"><br><br><strong>Genero</strong><br><br>
+                    <span>Maculino</span><input type="radio" name="genero"><br><br>
+                    <span>Femenino</span><input type="radio" name="genero"><br><br>
+                    <span>Otro</span><input type="radio" name="genero">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><br>HOBBIES</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox"><span>Musica</span><br>
+                    <input type="checkbox"><span>Pintura</span><br>
+                    <input type="checkbox"><span>Otro tipo de Arte</span><br>
+                </td>
+                <td>
+                    <input type="checkbox"><span>Natacion</span><br>
+                    <input type="checkbox"><span>Ciclismo </span><br>
+                    <input type="checkbox"><span>Patinaje</span><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Limpuar formulario</button>
+                </td>
+                <td>
+                    <button>Enviar formulario</button>
+                </td>
+            </tr>
+        </table>
+    </form>
 
+</body>
+</html>
